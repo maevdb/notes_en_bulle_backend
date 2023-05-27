@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",
+
+    /* Modules */
+    "module": "ES6",
+		"rootDir": "./src",
+     "moduleResolution": "node",
+
+    /* Emit */
+     "sourceMap": false,
+     "outDir": "./dist",
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowUnreachableCode": false,
+		"skipLibCheck": true
+  },
+	"include": ["./src"],
+	"exclude": [
+		"node_modules",
+		"*.config.ts"
+	]
+}
