@@ -7,13 +7,11 @@
     "test": "jest --config=./jest.config.ts",
     "dev": "npx tsc -w"
   },
-  "author": "Mae",
+  "author": "Mae vdb",
   "license": "MIT",
   "devDependencies": {
     "@babel/preset-env": "^7.22.2",
     "@babel/preset-typescript": "^7.21.5",
-    "@cucumber/cucumber": "^9.1.2",
-    "@cucumber/pretty-formatter": "^1.0.0",
     "@jest/globals": "^29.5.0",
     "@types/jest": "^29.5.1",
     "@types/node": "^20.2.5",
