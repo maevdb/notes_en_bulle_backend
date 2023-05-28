@@ -3,9 +3,15 @@ import { createStory } from "./stories/domain/storyCreation";
 
 describe("Testing stories creation", () => {
   it("should create a story", async () => {
-    expect(await createStory("phrase")).toEqual(true);
+    expect(await createStory("phrase")).toEqual({
+      success: true,
+      message: "the story was created successfully.",
+    });
   });
   it("should not create a story", async () => {
-    expect(await createStory("")).toEqual(false);
+    expect(await createStory("")).toEqual({
+      success: false,
+      message: "the story's content can't be empty.",
+    });
   });
 });
