@@ -1,6 +1,6 @@
 import { Response } from "./types";
 
-export class StoriesService {
+export class StoriesInterface {
   public async createStory(text: string): Promise<Response> {
     const wasContentFilled = Boolean(text.length);
     return {
