@@ -1,5 +1,5 @@
 import { it, expect, describe } from "@jest/globals";
-import { createStory } from "./stories/domain/storyCreation";
+import { createStory } from "../src/stories/domain/storyCreation";
 
 describe("Testing stories creation", () => {
   it("should create a story", async () => {
